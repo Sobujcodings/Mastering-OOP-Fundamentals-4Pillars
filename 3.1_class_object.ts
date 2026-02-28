@@ -2,6 +2,9 @@
   // ✅ Core Principles of OOP:
   // Encapsulation
   // Group data and behavior together into objects.
+  // প্রতিটা মানুষ তার ব্যক্তিগত তথ্য লুকিয়ে রাখে। যেমন তুমি কারো ব্যাংক একাউন্ট নম্বর জানতে পারো না। 
+  // প্রোগ্রামে, Encapsulation মানে হলো তথ্য এবং ফাংশনকে একসাথে একটা class এর ভিতরে রাখা 
+  // (kono data k encapsulate kora ba bayrer duniya/onno class theke alada kore lukiye rakha)।
   
   // Abstraction
   // Hide complex details and expose only the necessary parts.
