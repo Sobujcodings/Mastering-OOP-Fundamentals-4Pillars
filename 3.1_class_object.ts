@@ -17,11 +17,11 @@
 
 
   // OOP -> class
-  // cls jokhon likhba tokhon constructor call kore value gula dite hobe must
+  // cls jokhon likhba tokhon constructor call kore value gula dite hobe must ✅
   // instance(object)
   // properties (variables) & methods (functions)
   // class r property k amra this diye(this.something) diye mention korbo.
-  // akta method k any,void,unknwon agula chara stirng,num agula return type likhle return korate hobe kichu just console korle cholbe na
+  // akta method k any,void,unknwon agula chara stirng,num agula return type likhe return korate hobe kichu just console korle cholbe na
 
 
   // this part below animal is for ts only type declaration
@@ -31,9 +31,9 @@
     public species: string;
     public sound: string;
     // cls e constructor(a speacial method/function) call korte hoy sekhane paramter gulo pass kore this.someting mane initialize korte hoy parms guloke
-    // constructor used to initialize the object's properties. (automatically called)
+    // constructor used to initialize the object's properties. (automatically called) ✅
     // 3ta paramter recieve kore globally set kore dilo, this.name,sepecies,sound diye.
-    // !!ekhane animal cls k new animal likhe call korle(new instance obj toyri korle) constructor shei data recieve kore globally this diye shei parameter gulo set kore dey( name: string; species: string; sound: string; ekhanae set kore dibe agulai ekhane this k refer kore)
+    // !!ekhane animal cls k new animal likhe call korle(new instance/obj toyri korle) ✅ constructor shei data recieve kore globally this diye shei parameter gulo set kore dey( name: string; species: string; sound: string; ekhanae set kore dibe agulai ekhane this k refer kore)
     constructor(name: string, species: string, sound: string) {
       this.name = name; 
       this.species = species;
@@ -47,12 +47,13 @@
     }
   }
 
-
   // akhn ai cls theke kichu object(instance) toyri korbo
   // class k use kore instance(obj) create korte hoy tar jonno new use korte hobe
   const dog = new animal('Gernam shepard', 'Dog', 'Ghew Ghew');
   console.log(dog);
-  // animal cls(blueprint) use kore new akta object toyri kore fellam. output hobe amon  // animal { name: 'Gernam shepard', species: 'Dog', sound: 'Ghew Ghew' }
+  // animal cls(blueprint) use kore new akta object toyri kore fellam. 
+  // output hobe amon -> animal { name: 'Gernam shepard', species: 'Dog', sound: 'Ghew Ghew' } ✅
+  // constructor e name, species, sound -> set korar karone -> shei obj r nam soho obj {} ta dekhte kamon total ta peye jabo ✅
 
 
   // makesound() method k call kore use korbo from animal class
@@ -64,7 +65,7 @@
 
 
 
-  // !!important using (parameter propertys) (more opptimized way to write class now in ts is)
+  // !!important using (parameter propertys) (more opptimized way to write class now in ts is) ✅
   // cls r property define o kora lagbe na + constructor e initialize r kaj o kore dibe.
   class animal2 {
     // parameter property use korle (constructor e call r shomoy use korle r alada kore agulo define kora lagbe na atai necher property gula and this.name=name agulo o kora lagbe na)
