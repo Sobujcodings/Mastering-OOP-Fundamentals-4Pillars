@@ -74,7 +74,7 @@
     // public sound: string;
 
     // tokhon onekta easy,clean hoye jay ato property define kora lagbe na just use public and parameter & type
-    constructor(public name: string,public species: string,public sound: string) {
+    constructor(public name: string, public species: string, public sound: string) {
     //   this.name = name; 
     //   this.species = species;
     //   this.sound = sound;
