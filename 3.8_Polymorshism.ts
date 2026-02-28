@@ -4,7 +4,7 @@
     // class r akta particular method onno class e giye jodi sheta re-design hoy tokhon she amke diff diff rup dekhabe jodio method r nam kintu same but class diff
     // method r same structure rakhte hobe then sheta diff kichu kaj krte pare/return korte pare
     // function k call kore instance(obj)new diye jeta shetake padhiye dibo
-    // ak e method but different diff instance k diye call dewar karone -> output bhinno pacchi atai polymorshism
+    // ✅ ak e method but different diff instance k diye call dewar karone -> output bhinno pacchi atai polymorshism
 
     class Person {
         getSleep() {
